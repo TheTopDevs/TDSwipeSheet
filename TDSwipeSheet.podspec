@@ -10,9 +10,12 @@ Pod::Spec.new do |s|
     s.homepage         = 'http://topdevs.org'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Andrew' => 'andrew@topdevs.org' }
-    s.source           = { :git => 'https://github.com/TheTopDevs/TDSwipeSheet.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/TheTopDevs/TDSwipeSheet.git', :branch => "master", :tag => s.version.to_s }
 
     s.ios.deployment_target = '10.0'
-    s.source_files = 'TDSwipeSheet/*'
+    s.platform              = :ios
+    s.source_files          = 'TDSwipeSheet/*.{h,m}'
+    s.resource              = "TDSwipeSheet/*.{png,bundle,xib,nib}"
+
 
 end
