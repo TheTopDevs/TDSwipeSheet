@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'TDSwipeSheet'
-    s.version          = '1.1'
+    s.version          = '1.0'
     s.summary          = 'TDSwipeSheet is a simple and easy to integrate solution for presenting UIViewController or any view in bottom or top sheet'
 
     s.description      = <<-DESC
